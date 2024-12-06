@@ -21,7 +21,6 @@ export default function Meals() {
     <ul id="meals">
       {loadedMeals.map((meals) => (
         <MealItem key={meals.id} meal={meals} />
-        //   <li key={meals.id}></li>
       ))}
     </ul>
   );
